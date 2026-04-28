@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
-import myCertificateImage from "./assets/67e160b90f43d67d093d56bd_page-0001.jpg";
-import myCertificateImage2 from "./assets/PHOTO-2026-04-28-15-30-25.jpg";
-import myCertificateImage3 from "./assets/Internship-Batct_Data Set 4.jpg";
+import myCertificateImage from "/67e160b90f43d67d093d56bd_page-0001.jpg";
+import myCertificateImage2 from "/PHOTO-2026-04-28-15-30-25.jpg";
+import myCertificateImage3 from "/Internship-Batct_Data Set 4.jpg";
 
 const CertificateSlider = () => {
   const sliderRef = useRef(null);

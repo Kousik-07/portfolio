@@ -7,8 +7,8 @@ import CertificateSlider from "./CertificateSlider";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import mylogo from "./assets/Untitled.png";
-import myPhoto from "./assets/Adobe Express - file.png";
+import mylogo from "/Untitled.png";
+import myPhoto from "/Adobe Express - file.png";
 gsap.registerPlugin(ScrollTrigger);
 function App() {
   const el = useRef(null); 

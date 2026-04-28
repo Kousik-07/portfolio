@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import myProjectImage1 from "./assets/expenceTracking.png";
-import myProjectImage2 from "./assets/random_password.png";
+import myProjectImage1 from "/expenceTracking.png";
+import myProjectImage2 from "/random_password.png";
 gsap.registerPlugin(ScrollTrigger);
 
 const Projects = () => {
